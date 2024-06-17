@@ -1,0 +1,15 @@
+@prefix treekipedia: <http://treekipedia.org/ontology/> .
+@prefix species: <http://treekipedia.org/species/> .
+@prefix family: <http://treekipedia.org/family/> .
+@prefix genus: <http://treekipedia.org/genus/> .
+@prefix habitat: <http://treekipedia.org/habitat/> .
+
+species:Quercus_robur a treekipedia:TreeSpecies ;
+    treekipedia:hasScientificName "Quercus robur" ;
+    treekipedia:hasCommonName "English Oak" ;
+    treekipedia:belongsTo family:Fagaceae ;
+    treekipedia:partOf genus:Quercus ;
+    treekipedia:foundIn habitat:TemperateForest ;
+    treekipedia:hasAverageHeight "20-40 meters" ;
+    treekipedia:hasLifespan "Several centuries" ;
+    treekipedia:hasConservationStatus treekipedia:LeastConcern .

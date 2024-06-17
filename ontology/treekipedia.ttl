@@ -1,0 +1,18 @@
+@prefix treekipedia: <http://treekipedia.org/ontology/> .
+
+treekipedia:TreeSpecies a owl:Class .
+treekipedia:Family a owl:Class .
+treekipedia:Genus a owl:Class .
+treekipedia:Habitat a owl:Class .
+treekipedia:Dataset a owl:Class .
+treekipedia:ConservationStatus a owl:Class .
+
+treekipedia:hasScientificName a owl:DatatypeProperty ;
+    rdfs:domain treekipedia:TreeSpecies ;
+    rdfs:range xsd:string .
+
+treekipedia:hasCommonName a owl:DatatypeProperty ;
+    rdfs:domain treekipedia:TreeSpecies ;
+    rdfs:range xsd:string .
+
+
